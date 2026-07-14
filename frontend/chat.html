@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+		const currentParams = window.location.search;
+
+		// Check if they cleared the gate layout. If not, go to root.
+		if (localStorage.getItem('chatter_gate_cleared') !== 'true') {
+			window.location.replace('/' + currentParams);
+		} else if (!localStorage.getItem('chatter_session_token')) {
+			// If they cleared the gate but have no token, go to auth page cleanly.
+			window.location.replace('/auth.html' + currentParams);
+		}
+	</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-capable" content="yes" />	
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="theme-color" content="#f3f6fb" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#121827" media="(prefers-color-scheme: dark)" />
+    <title>Chatter - Sandbox Dashboard</title>
+	<link rel="icon" type="image/png" sizes="512x512" href="/chatter-icon2.jpeg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/chatter-icon2.jpeg">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+</head>
+<body>
+	<div id="app-loading-screen" class="hidden">
+		<div class="spinner-container">
+			<div class="loading-spinner"></div>
+			<p class="loading-text">Loading Chatter...</p>
+		</div>
+	</div>
+    <div class="app-shell">
+        <header class="app-header">
+            <div>
+                <h1>Chatter</h1>
+            </div>
+            <div class="header-theme"></div>
+            <div id="current-user" class="header-right hidden">
+                <span>Logged in as <strong id="username-display"></strong></span>
+				<button id="settings-button" class="btn btn-secondary">Settings</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="main-screen">
+                <div class="panel toolbar">
+                    <div class="action-menu" style="position: relative;">
+                        <button id="toolbar-action-button" class="secondary-button" aria-expanded="false" aria-haspopup="true">+</button>
+                        <div id="toolbar-menu" class="toolbar-menu hidden" role="menu" aria-label="Actions">
+                            <button id="add-contact-button" class="menu-item">Add Contact</button>
+                            <button id="create-group-button" class="menu-item">Create Group</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="group-creation-panel" class="card hidden">
+                    <h3>Create a group chat</h3>
+                    <label>Group name</label>
+                    <input id="group-name-input" type="text" placeholder="Group chat name" />
+                    <div class="group-members">
+                        <div class="group-members-title">Select members</div>
+                        <div id="group-members-list" class="group-members-list"></div>
+                    </div>
+                    <div class="group-actions">
+                        <button id="group-create-submit" class="primary-button" type="button">Create</button>
+                        <button id="group-create-cancel" class="secondary-button" type="button">Cancel</button>
+                    </div>
+					<div id="group-create-status" class="status hidden"></div>
+                </div>
+
+                <div id="add-contact-panel" class="card hidden">
+                    <h3>Add a contact</h3>
+                    <label>Username</label>
+                    <input id="add-contact-input" type="text" placeholder="Contact username" />
+                    <div class="group-actions">
+                        <button id="add-contact-submit" class="primary-button" type="button">Add</button>
+                        <button id="add-contact-cancel" class="secondary-button" type="button">Cancel</button>
+                    </div>
+					<div id="add-contact-status" class="status hidden"></div>
+                </div>
+
+                <div class="chat-layout">
+                    <aside class="sidebar card">
+                        <div class="sidebar-title">Contacts &amp; Groups</div>
+                        <ul id="contact-list" class="contact-list"></ul>
+                    </aside>
+
+                    <section class="chat-card card">
+                        <div class="chat-header">
+                            <div class="header-content">
+								<button id="mobile-back-button" class="btn btn-secondary mobile-back-btn" style="display: none; margin-right: 10px; padding: 6px 12px;">← Back</button>
+                                <h2 id="chat-title">Choose a contact or a group</h2>
+                                <button id="see-members-button" class="see-members-button hidden">See members</button>
+                            </div>
+                        </div>
+                        <div id="message-list" class="message-list"></div>
+						<div id="reply-preview" class="reply-preview hidden">
+								<div>
+									<strong id="reply-preview-sender"></strong>
+									<div id="reply-preview-text"></div>
+								</div>
+								<button id="reply-preview-cancel" type="button">×</button>
+							</div>
+							<div id="attachment-preview" class="attachment-preview hidden">
+								<div id="attachment-preview-content"></div>
+								<button id="attachment-preview-cancel" type="button">×</button>
+							</div>
+                        <div class="composer hidden">
+                            <input id="file-input" type="file" hidden>
+                            <button id="attach-button" type="button">+</button>
+                            <input id="message-input" type="text" placeholder="Type a message..." disabled />
+                            <button id="send-button" class="primary-button" disabled>Send</button>
+                        </div>
+                    </section>
+                </div>
+                <div id="main-status" class="status"></div>
+            </section>
+        </main>
+    </div>
+
+	<div id="confirm-modal" class="modal hidden">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 id="confirm-title">Confirm action</h3>
+				<button id="confirm-close" class="modal-close">×</button>
+			</div>
+			<div style="padding: 20px 24px;">
+				<p id="confirm-message"></p>
+				<div class="group-actions">
+					<button id="confirm-yes" class="btn btn-danger" type="button">Yes, continue</button>
+					<button id="confirm-no" class="btn btn-secondary" type="button">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="members-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="members-modal-title">Group Members</h3>
+				<div style="display: flex; align-items: center; gap: 8px;">
+					<button id="group-add-member-button" class="secondary-button hidden" type="button">Add</button>
+					<button id="members-modal-close" class="modal-close">×</button>
+				</div>
+            </div>
+			<div id="group-add-member-panel" class="hidden" style="padding: 16px 24px; border-bottom: 1px solid var(--border);">
+				<div id="group-add-contact-list" class="group-members-list"></div>
+				<input id="group-add-member-input" type="text" placeholder="Other">
+				<div class="group-actions">
+					<button id="group-add-member-submit" class="primary-button" type="button">Add member</button>
+					<button id="group-add-member-cancel" class="secondary-button" type="button">Cancel</button>
+				</div>
+				<div id="group-member-status" class="status hidden"></div>
+			</div>
+            <div id="members-list" class="members-list"></div>
+        </div>
+    </div>
+
+	<div id="settings-modal" class="modal hidden">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2 id="settings-modal-title">Settings</h2>
+				<button id="settings-modal-close" class="modal-close-btn">&times;</button>
+			</div>
+			<div id="settings-menu-options">
+				<div class="theme-settings-row">
+					<span id="theme-mode-text" class="theme-mode-text">Light mode</span>
+					<button id="theme-toggle" class="mode-switch" aria-pressed="false" title="Switch to dark mode">
+						<span class="switch-knob"></span>
+					</button>
+				</div>
+				<div class="form-group" style="margin-top: 16px; padding: 0 4px;">
+					<label style="font-size: 13px; font-weight: 600;">Recovery Email</label>
+					<div style="display: flex; gap: 8px; margin-top: 4px;">
+						<input type="email" id="settings-email-input" placeholder="No recovery email set" style="margin: 0; flex-grow: 1;" />
+						<button id="settings-email-submit" class="primary-button" style="padding: 0 14px; margin: 0; width: auto;">Save</button>
+					</div>
+				</div>
+				<hr style="border: 0; border-top: 1px solid var(--border); margin: 16px 0;" />
+				<button id="opt-change-password" class="menu-option-btn">Change Your Password</button>
+				<button id="logout-button" class="btn btn-danger structural-logout-btn">Logout</button>
+			</div>
+			
+			<div id="password-change-form" class="hidden">
+				<div class="form-group">
+					<label for="settings-current-password">Current Password</label>
+					<input type="password" id="settings-current-password" placeholder="Enter current password">
+				</div>
+				<div class="form-group">
+					<label for="settings-new-password">New Password</label>
+					<input type="password" id="settings-new-password" placeholder="Enter new password">
+				</div>
+				<div class="action-buttons">
+					<button id="change-password-submit" class="btn">Update Password</button>
+					<button id="change-password-back" class="btn btn-secondary">Back</button>
+				</div>
+			</div>
+			<div id="settings-status" class="status"></div>
+		</div>
+	</div>
+
+    <div id="receipts-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Message Read Status</h3>
+                <button id="receipts-modal-close" class="modal-close">×</button>
+            </div>
+            <div id="receipts-list" class="members-list"></div>
+        </div>
+    </div>
+
+	<div id="pdf-modal" class="modal hidden">
+		<div class="modal-content pdf-modal-content">
+			<div class="modal-header">
+				<h3 id="pdf-title">PDF Viewer</h3>
+				<button id="pdf-close" class="modal-close">×</button>
+			</div>
+
+			<div class="pdf-toolbar">
+				<button id="pdf-prev" type="button">Previous</button>
+				<span id="pdf-page-info">Page 1 / 1</span>
+				<button id="pdf-next" type="button">Next</button>
+
+				<button id="pdf-zoom-out" type="button">-</button>
+				<span id="pdf-zoom-label">100%</span>
+				<button id="pdf-zoom-in" type="button">+</button>
+			</div>
+
+			<div id="pdf-render-area">
+				<canvas id="pdf-canvas"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div id="image-modal" class="modal hidden">
+		<div class="modal-content image-modal-content">
+			<div class="modal-header">
+				<h3 id="image-modal-title">Image Viewer</h3>
+				<div class="image-modal-actions">
+					<button id="image-zoom-out" class="secondary-button" type="button">−</button>
+					<button id="image-zoom-in" class="secondary-button" type="button">+</button>
+					<button id="image-save" class="secondary-button" type="button">Save</button>
+					<button id="image-close" class="modal-close">×</button>
+				</div>
+			</div>
+			<div id="image-viewer-body">
+				<img id="image-viewer-img" alt="Preview">
+			</div>
+		</div>
+	</div>
+
+	<div id="video-modal" class="modal hidden">
+		<div class="modal-content image-modal-content">
+			<div class="modal-header">
+				<h3>Video Viewer</h3>
+				<button id="video-close" class="modal-close">×</button>
+			</div>
+			<div id="image-viewer-body">
+				<video id="video-viewer" controls style="max-width:100%; max-height:100%;"></video>
+			</div>
+		</div>
+	</div>
+
+	<div id="edit-message-modal" class="modal hidden">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3>Edit message</h3>
+				<button id="edit-message-close" class="modal-close">×</button>
+			</div>
+			<div style="padding: 20px 24px;">
+				<input id="edit-message-input" type="text" placeholder="Edit message">
+				<div class="group-actions">
+					<button id="edit-message-save" class="primary-button" type="button">Save</button>
+					<button id="edit-message-cancel" class="secondary-button" type="button">Cancel</button>
+				</div>
+				<div id="edit-message-status" class="status hidden"></div>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
