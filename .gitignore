@@ -1,0 +1,44 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Old backup server file
+chatter_server2.py
+
+# nohup output
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.pyo
+*.pyd
+
+# Uploads / generated user content
+uploads/
+static/uploads/
+media/
+
+# Databases / local runtime files
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Logs / cache
+*.log
+.cache/
+.pytest_cache/
+
+# Node / frontend, if present
+node_modules/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

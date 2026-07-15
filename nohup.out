@@ -6116,3 +6116,5 @@ AssertionError: write() before start_response
 91.196.152.177 - - [15/Jul/2026 00:54:18] "GET / HTTP/1.1" 200 -
 91.196.152.120 - - [15/Jul/2026 00:56:19] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
 91.231.89.240 - - [15/Jul/2026 00:56:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2026 01:06:39] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2026 01:09:07] "GET / HTTP/1.1" 200 -
