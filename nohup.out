@@ -4767,3 +4767,1352 @@ AssertionError: write() before start_response
 127.0.0.1 - - [14/Jul/2026 04:27:04] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
 94.154.43.66 - - [14/Jul/2026 04:30:36] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
 94.154.43.66 - - [14/Jul/2026 04:30:36] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 04:33:25] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:51:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:54:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:47] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:48] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:48] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:48] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:48] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:48] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:49] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:54:50] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:56:30] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:56:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:58:25] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:26] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 04:58:27] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:58:27] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 04:58:27] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 04:58:40] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 05:00:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:01:55] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:08:02] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:17:07] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+94.154.43.66 - - [14/Jul/2026 05:26:39] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 05:26:39] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 05:36:31] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 05:50:23] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 05:50:23] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 05:50:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:29] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:31] "[33mHEAD /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:33] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:54] "[33mGET /jrnquzsk HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "[33mGET /huqrlwyg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "[33mGET /jrnquzsk HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "[33mGET /huqrlwyg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "[33mGET /jrnquzsk HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "[33mGET /huqrlwyg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:50:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:50:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:54:19] "GET / HTTP/1.1" 200 -
+89.21.67.155 - - [14/Jul/2026 05:54:21] "GET / HTTP/1.1" 200 -
+81.19.216.98 - - [14/Jul/2026 05:54:31] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+89.21.67.157 - - [14/Jul/2026 05:54:41] "[33mGET /sse HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:55:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:55:31] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:56:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 05:56:40] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:57:00] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 05:57:00] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:57:00] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 05:57:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:01:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:01:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:01:55] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:01:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:01:55] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:01:56] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:01:56] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:01:56] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:01:57] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:01:57] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:01:57] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:02:11] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:02:11] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:02:11] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:02:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:02:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:03:14] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:14] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:14] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:18] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:18] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:18] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:21] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:21] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:21] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:23] "[35m[1mGET /?v HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:23] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:23] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:26] "[35m[1mGET /?v= HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:26] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:26] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:27] "[35m[1mGET /?v=1 HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:27] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:27] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:40] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:03:40] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:40] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:43] "GET /?v=1 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:03:43] "GET /auth.html?v=1 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:03:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:43] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:03:43] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:03:46] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:04] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:05] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:05] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:06] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[33mGET /static/chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:30] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:31] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:49] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:55] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:06:56] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:07:21] "[35m[1mGET / HTTP/1.1[0m" 206 -
+127.0.0.1 - - [14/Jul/2026 06:07:21] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:07:21] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:07:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:09:44] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "[33mGET /public/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:09:44] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:09:46] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:10:30] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:31] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:31] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+
+User Adi disconnected
+User connected: MBSOAXoHbq2TyMt2AAA3
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User adicomp left their active group.
+Received get_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'contact_username': 'user1', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+[BADGE SYNC] Computed total background badge score for user1: 1
+Received get_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'contact_username': 'user1', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+Received get_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'contact_username': 'user1', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+Received get_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'contact_username': 'user1', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+User adicomp left their active group.
+Received get_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'contact_username': 'user1', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+Received get_group_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'group_name': 'The Adis', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+User adicomp left their active group.
+Received get_group_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'group_name': 'The Adis', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+User adicomp left their active group.
+Received get_group_conversation request from sid=MBSOAXoHbq2TyMt2AAA3: {'username': 'adicomp', 'group_name': 'The Adis', 'token': '9968908e737e2d0fca623ddfbe237dc43559e614d667afae51d05eabf2c913fd'}
+User adicomp left their active group.
+User None disconnected
+User connected: XkgcmOgFHAH5rXc-AAA5
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+User Adi disconnected
+User connected: mWI5FmIPgTi4bnhZAAA7
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+User Adi disconnected
+User connected: qDk6SJ8TYVg_kULMAAA9
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+User Adi disconnected
+User connected: AlyDgI7G56-w2_PtAAA_
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+User Adi disconnected
+User connected: XuHD8D_s9-UhcvadAABB
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+[PUSH] Attempting outbound broadcast routing payload: {"title": "Added to group", "body": "Adi added you to Another group of Adis", "url": "/?chat=Another group of Adis&type=group"}
+[PUSH] Attempting outbound broadcast routing payload: {"title": "Added to group", "body": "Adi added you to Another group of Adis", "url": "/?chat=Another group of Adis&type=group"}
+[PUSH] Attempting outbound broadcast routing payload: {"title": "Added to group", "body": "Adi added you to Another group of Adis", "url": "/?chat=Another group of Adis&type=group"}
+[PUSH] Attempting outbound broadcast routing payload: {"title": "Added to group", "body": "Adi added you to Another group of Adis", "url": "/?chat=Another group of Adis&type=group"}
+[PUSH] Attempting outbound broadcast routing payload: {"title": "Added to group", "body": "Adi added you to Another group of Adis", "url": "/?chat=Another group of Adis&type=group"}
+[PUSH ERROR] WebPush protocol rejection error occurred:  WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[PUSH ERROR] Middleman service response body: 410 - push subscription has unsubscribed or expired.
+
+[PUSH ERROR] WebPush protocol rejection error occurred:  WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[PUSH ERROR] Middleman service response body: 410 - push subscription has unsubscribed or expired.
+
+[PUSH ERROR] WebPush protocol rejection error occurred:  WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[PUSH ERROR] Middleman service response body: 410 - push subscription has unsubscribed or expired.
+
+[PUSH ERROR] WebPush protocol rejection error occurred:  WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[PUSH ERROR] Middleman service response body: 410 - push subscription has unsubscribed or expired.
+
+[PUSH] Web Push Protocol transaction handshake completed successfully!
+Received get_group_conversation request from sid=XuHD8D_s9-UhcvadAABB: {'username': 'Adi', 'group_name': 'Another group of Adis', 'token': 'bff1cbc86253496316dfa32bcd19d3aa79d9aa78f90c3cfe3a181dfd2700ac3d'}
+User Adi left their active group.
+Received get_group_conversation request from sid=XuHD8D_s9-UhcvadAABB: {'username': 'Adi', 'group_name': 'Another group of Adis', 'token': 'bff1cbc86253496316dfa32bcd19d3aa79d9aa78f90c3cfe3a181dfd2700ac3d'}
+User Adi left their active group.
+Received get_group_conversation request from sid=XuHD8D_s9-UhcvadAABB: {'username': 'Adi', 'group_name': 'Another group of Adis', 'token': 'bff1cbc86253496316dfa32bcd19d3aa79d9aa78f90c3cfe3a181dfd2700ac3d'}
+User Adi left their active group.
+User None disconnected
+User connected: iBxVgHfH2-fsLKmLAABD
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+Saved push subscription device 78def6f35e21ae6e7a1569346fff38def883edbaa945f5059b459237d1281c9d for Adi
+User Adi disconnected
+User connected: c1elX58JzcGc8RlcAABF
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User None disconnected
+User connected: 3ROV0AmIKoLA5crcAABH
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User connected: ezX1WyVlqZdpZl9aAABJ
+User None disconnected
+User None disconnected
+User connected: QflKojW-28--fLAzAABL
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User None disconnected
+User connected: F5lfIW1Iy752b29ZAABN
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User None disconnected
+User connected: yK_d9nRUp90Esk3sAABP
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User None disconnected
+User connected: aYe3_05081Ne7Q2vAABR
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+Saved push subscription device 79a4865b40d09983ece6f9faeac640811dac7b3c728f154d7db09a268f9606e8 for adicomp
+User None disconnected127.0.0.1 - - [14/Jul/2026 06:10:56] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:10:56] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:10:56] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:10:58] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:14:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:14:40] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:40] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:14:40] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:41] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:41] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:41] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:41] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:41] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:42] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:43] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:43] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:43] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:14:43] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:16:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:16:12] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:17:10] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:17:40] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:17:40] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:17:41] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:17:41] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:17:42] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:18:28] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:18:28] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:18:28] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:18:28] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:18:29] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:18:29] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:18:29] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:18:29] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:18:30] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:06] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:06] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:07] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:07] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:07] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:07] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:07] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:08] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:09] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:09] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:09] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:09] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:15] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:15] "GET /chat.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:15] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:15] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:15] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:16] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:16] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:16] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:19] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:19:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:23] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:19:25] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:19:25] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:27:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:27:31] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:27:37] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:28:45] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:28:47] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:29:35] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:33:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:05] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:05] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:05] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:05] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:06] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:06] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:06] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:10] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:33:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:37] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:37] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:38] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:38] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 06:33:38] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:38] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:38] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:33:39] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:48] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:51] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:51] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:51] "[33mGET /chatter-icon2.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:51] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 06:37:55] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 06:55:58] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 07:10:07] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:07] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:07] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:13] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:13] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 07:10:14] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:14] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:10:14] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:18:51] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:38:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 07:38:42] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 07:57:01] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 08:00:30] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 08:09:32] "[33mGET /wp-json/gravitysmtp/v1/tests/mock-data?page=gravitysmtp-settings HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 08:09:32] "[33mGET /wp-json/ HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 08:12:04] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 08:12:04] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 08:17:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 08:22:24] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 08:28:11] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 08:31:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 08:55:12] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+94.154.43.66 - - [14/Jul/2026 08:58:31] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 08:58:31] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 09:10:33] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:38:22] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:06] "[33mGET /dn26-canary-04e350b11e569f14a6cf0ebefebfc141 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.example HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.staging HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.swp HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /server/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.production HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.production.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.bak HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.old HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /backend/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.development HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.docker HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /api/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.backup HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.prod HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /app/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.dev HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env.development.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:07] "[33mGET /.env~ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /laravel/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /v2/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /public/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /v1/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /private/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /core/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /settings.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /.svn/wc.db HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config.yaml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /.svn/entries HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /.git/HEAD HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /src/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /config.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /admin/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:08] "[33mGET /web/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /settings.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /secrets.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /credentials.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /application-dev.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /application-prod.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /appsettings.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /appsettings.Production.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /web.config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php~ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /application.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /secrets.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php.bak HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /appsettings.Development.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php.old HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /appsettings.Staging.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /application.properties HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php.save HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php.swp HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /.npmrc HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.php.orig HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /.docker/config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /docker-compose.prod.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /wp-config.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /docker-compose.dev.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /docker-compose.yaml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /docker-compose.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /.yarnrc HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /sites/default/settings.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:09] "[33mGET /actuator/configprops HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /actuator/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /storage/logs/laravel.log HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.netrc HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /configuration.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.htpasswd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /debug/vars HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /database.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.ssh/id_rsa HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.my.cnf HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /dump.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.pgpass HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /backup.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /database.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /id_rsa HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /keyfile.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.codex/config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /serviceAccountKey.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /service-account.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /gcloud-service-key.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.config/codex/auth.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /.codex/auth.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /db.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /google-credentials.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /firebase-adminsdk.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /codex/auth.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /home/.codex/auth.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:10] "[33mGET /root/.codex/auth.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:11] "[33mGET /local.settings.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:11] "[33mGET /.env.local.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:11] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:12] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:42:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 09:48:24] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 09:54:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 10:05:44] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 10:05:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 10:08:26] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 10:29:07] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 10:29:07] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+216.218.206.67 - - [14/Jul/2026 10:37:53] "GET / HTTP/1.1" 200 -
+94.154.43.66 - - [14/Jul/2026 10:38:00] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 10:38:00] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+216.218.206.67 - - [14/Jul/2026 10:38:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+216.218.206.67 - - [14/Jul/2026 10:38:21] code 400, message Bad request version ('À\x13À')
+216.218.206.67 - - [14/Jul/2026 10:38:21] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03r>o1\x8e\x07\x928 ÍÞ&À8TU®-ð_Ét\x98þ`\x82\x883\x8ekÊt \x04:~æ_\x95Ê¶©¶\x00*\x03+8Û\x99ÜÎÚöÖk¡ch_îëNàú\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+216.218.206.67 - - [14/Jul/2026 10:38:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00£\x01\x00\x00\x9f\x03\x03=¹Ð&tÐ&S§ìf9+ZDìý\x9a.Ï^¤\x92É§')
+216.218.206.67 - - [14/Jul/2026 10:38:21] "[31m[1m\x16\x03\x01\x00£\x01\x00\x00\x9f\x03\x03=¹Ð&tÐ&S§ìf9+ZDìý\x9a.Ï^¤\x92É§ éN\x7f`©ç\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ[0m" 400 -
+216.218.206.67 - - [14/Jul/2026 10:38:21] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 10:43:38] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 10:51:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 11:01:11] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 11:16:53] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 11:23:21] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 11:33:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 11:45:43] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 11:47:44] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 11:59:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 12:13:04] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+130.12.180.65 - - [14/Jul/2026 12:37:40] code 400, message Bad request syntax ('CNXN\x01\x00\x00\x01\x00\x00\x10\x00\x06\x00\x00\x002\x02\x00\x00¼±§±host::')
+130.12.180.65 - - [14/Jul/2026 12:37:40] "[31m[1mCNXN\x01\x00\x00\x01\x00\x00\x10\x00\x06\x00\x00\x002\x02\x00\x00¼±§±host::[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 12:38:02] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:40:37] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 12:43:14] "[33mGET /console/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:15] "[33mGET /server HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:16] "[33mGET /server-status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:18] "[33mGET /about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:19] "[33mGET /login.action HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 12:43:21] "[33mGET /___proxy_subdomain_whm/login HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:21] "[33mGET /___proxy_subdomain_cpanel HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:21] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:25] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:28] "[33mPOST /graphql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:28] "[33mPOST /api HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:28] "[33mPOST /api/graphql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:29] "[33mPOST /graphql/api HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:29] "[33mPOST /api/gql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:29] "[33mGET /s/833313e2533323e2238313e2734313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:30] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:32] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:33] "[33mGET /info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:35] "[33mGET /actuator/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:36] "[33mGET /trace.axd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:37] "[33mGET /@vite/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:43:39] "OPTIONS / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 12:43:40] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 12:43:41] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 12:47:44] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 12:50:50] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 12:50:50] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 13:01:39] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:08:12] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:14:20] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:17:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 13:17:18] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:32:28] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:47:32] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 13:47:54] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 13:49:58] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 13:49:58] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 14:02:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:05:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:07:51] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+151.243.11.231 - - [14/Jul/2026 14:24:47] "GET / HTTP/1.1" 200 -
+151.243.11.231 - - [14/Jul/2026 14:24:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+151.243.11.231 - - [14/Jul/2026 14:24:48] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 14:29:16] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 14:29:36] "GET / HTTP/1.1" 200 -
+94.154.43.66 - - [14/Jul/2026 14:31:30] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 14:31:30] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 14:32:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:42:17] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 14:42:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:46:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:46:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:46:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:46:19] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:46:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:52:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 14:54:24] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 14:57:09] "GET / HTTP/1.1" 200 -
+46.151.178.13 - - [14/Jul/2026 14:59:19] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 14:59:19] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 15:04:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:08:15] "[33mGET /wp-includes/ID3/license.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /feed/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:16] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /2021/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:17] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:08:18] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:18:05] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:29:38] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:29:45] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+127.0.0.1 - - [14/Jul/2026 15:32:10] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:32:10] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:32:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:32:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:32:16] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:32:18] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:35:26] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[33mGET /static/chatter-icon-512.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:41:08] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:41:09] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:41:10] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 15:41:10] "[36mGET /sw.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 15:44:48] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 15:55:07] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 15:55:43] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+172.104.11.46 - - [14/Jul/2026 16:03:50] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.104.11.46 - - [14/Jul/2026 16:03:50] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+172.104.11.46 - - [14/Jul/2026 16:03:50] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.104.11.46 - - [14/Jul/2026 16:03:50] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 16:04:25] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:04:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:04:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:04:26] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:04:27] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:04:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:04:28] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:07:20] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:07:56] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:07:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:07:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:07:58] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:07:59] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:08:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+85.217.149.11 - - [14/Jul/2026 16:10:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 16:18:32] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 16:23:18] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 16:23:18] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+64.62.156.222 - - [14/Jul/2026 16:27:54] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+64.62.156.222 - - [14/Jul/2026 16:27:54] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+45.194.67.27 - - [14/Jul/2026 16:32:30] "GET / HTTP/1.1" 200 -
+45.194.67.27 - - [14/Jul/2026 16:32:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+45.194.67.27 - - [14/Jul/2026 16:32:30] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 16:34:38] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+45.33.109.18 - - [14/Jul/2026 16:34:55] code 400, message Bad request version ('À\x14À')
+45.33.109.18 - - [14/Jul/2026 16:34:55] "[31m[1m\x16\x03\x01\x00u\x01\x00\x00q\x03\x03À9(õËðj§\x93/`\x1eÖç\x16Z\x1eOjBm8øV\x83rrî¹\x1fv\x9e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 16:39:41] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+172.104.11.4 - - [14/Jul/2026 16:41:36] "GET / HTTP/1.1" 200 -
+94.154.43.66 - - [14/Jul/2026 16:41:36] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 16:41:36] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 17:00:35] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:02:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:03:06] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:03:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:03:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:17:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:25:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:25:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:30:35] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+/root/chatter/backend/services/auth_service.py:17: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  session_query = db.collection_group('sessions').where('token', '==', token).limit(1).stream()
+127.0.0.1 - - [14/Jul/2026 17:32:03] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 17:45:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /appsettings.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /secrets.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:05] "[33mGET /actuator/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /api/config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /api/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /service-account.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /account.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /gcp-credentials.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /firebase.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /credentials.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /keyfile.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /firebase-adminsdk.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /key.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:45:06] "[33mGET /google-credentials.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:51:38] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:52:09] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+127.0.0.1 - - [14/Jul/2026 17:53:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:53:49] "[33mGET /1jfg6do6jt93j1n48ipfqs6cyz HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:49] "[33mGET /qzd2u917yfv1yviqv3cxrpfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "[33mGET /m2vk453ghyudypteykkjkzyi.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "[33mGET /administrator HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "[33mGET /admin HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "[33mGET /login HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:50] "[33mGET /wp-admin HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:51] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:51] "[33mGET /config.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:51] "[33mGET /configuration.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /server-status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /server-info HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /backup HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /backup.zip HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /backup.tar.gz HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /db.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /database.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:52] "[33mGET /dump.sql HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:54] "[33mGET /test HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:54] "[33mGET /test.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:55] "[33mGET /dev HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:55] "[33mGET /old HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /api HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /tmp HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /temp HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /api/v1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /api/v2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /swagger HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /swagger.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:56] "[33mGET /swagger-ui.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /openapi.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /actuator HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /actuator/env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /metrics HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /debug HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /health HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /healthz HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /readme.md HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /README.md HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /CHANGELOG.md HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:57] "[33mGET /license.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /web.config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /crossdomain.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /clientaccesspolicy.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /package.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /composer.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /composer.lock HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /yarn.lock HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /Dockerfile HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:58] "[33mGET /docker-compose.yml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /phpmyadmin HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /pma HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /adminer.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /upload HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /uploads HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /files HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /private HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /secret HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:53:59] "[33mGET /secrets HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:54:00] "[33mGET /credentials HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:54:00] "[33mGET /console HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:54:00] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:54:00] "[33mGET /wp-json/gravitysmtp/v1/tests/mock-data?page=gravitysmtp-settings HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:57:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 17:57:27] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 17:58:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 18:10:54] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 18:17:33] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 18:21:11] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 18:29:48] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 18:30:49] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 18:45:32] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 18:45:32] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 18:53:20] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:01:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:05:45] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:10:31] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:31] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:10:32] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:32] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:32] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:32] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:33] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:34] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:34] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:34] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:34] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:34] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:10:35] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:57] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:58] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:58] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:58] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:15:58] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:32:55] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:32:57] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 19:32:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:33:00] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:33:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:33:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 19:37:15] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 19:51:08] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 19:51:08] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+130.12.180.65 - - [14/Jul/2026 20:00:25] code 400, message Bad request syntax ('CNXN\x01\x00\x00\x01\x00\x00\x10\x00\x06\x00\x00\x002\x02\x00\x00¼±§±host::')
+130.12.180.65 - - [14/Jul/2026 20:00:25] "[31m[1mCNXN\x01\x00\x00\x01\x00\x00\x10\x00\x06\x00\x00\x002\x02\x00\x00¼±§±host::[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 20:02:36] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:04:19] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:07:00] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:00] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:07:01] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:01] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:01] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:01] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:02] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:03] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:03] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:03] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:03] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:07:03] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:22:46] "[33mGET /.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:24:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:24:17] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:24:18] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:25:10] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:38:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:45:10] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:26] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:33] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:46] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:47] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:47] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:47] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:47] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:47] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:48] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:49] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:57:49] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 20:58:47] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:12:24] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:13:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:49] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:49] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 21:18:50] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 21:18:50] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 21:18:50] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 21:18:51] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:53] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:53] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:18:58] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+45.156.128.52 - - [14/Jul/2026 21:20:41] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+45.156.128.52 - - [14/Jul/2026 21:20:41] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+45.156.128.51 - - [14/Jul/2026 21:21:00] "GET / HTTP/1.1" 200 -
+45.156.128.51 - - [14/Jul/2026 21:21:14] "[33mPOST /mcp HTTP/1.1[0m" 404 -
+45.156.128.51 - - [14/Jul/2026 21:21:14] "[33mGET /sse HTTP/1.1[0m" 404 -
+45.156.128.51 - - [14/Jul/2026 21:21:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:23:58] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:30:56] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:48:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 21:50:45] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:58:37] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 21:59:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:00:43] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:05:25] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:25] "[33mGET /xmlrpc.php?rsd HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:05:26] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:26] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:26] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:26] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:27] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:27] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:27] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:27] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:28] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:28] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:28] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:28] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:29] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:29] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:05:29] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.1[0m" 404 -
+46.151.178.13 - - [14/Jul/2026 22:11:55] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [14/Jul/2026 22:11:55] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 22:22:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:22:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:22:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:22:20] "[33mGET /_next/data/buildId/page.json?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:22:29] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:22:34] "[33mGET /api/endpoint?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:22:46] "[33mGET /_next/static/chunks/pages/?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:23:12] "GET /?param=test?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:23:26] "[33mGET /_next/data/buildId/home.json?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:23:39] "[33mGET /api/test?cmd=CihmdW5jdGlvbigpewoJdHJ5IHsKCQl2YXIgY21kID0gImVjaG8gVlVMTl9URVNUIjsKCQl2YXIgcmVzdWx0ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jKGNtZCwge2VuY29kaW5nOiAndXRmOCd9KTsKCQlyZXR1cm4gYnRvYShyZXN1bHQpOwoJfSBjYXRjaChlKSB7CgkJcmV0dXJuIGJ0b2EoZS50b1N0cmluZygpKTsKCX0KfSkoKQo= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:24:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:24:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:24:48] "[33mGET /.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:12] "[33mGET /phpinfo HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:17] "[33mGET /phpinfo HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:29] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:33] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:33] "[33mGET /portal/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:33] "[33mGET /env/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:34] "[33mGET /api/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:35] "[33mGET /app/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:36] "[33mGET /dev/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:37] "[33mGET /new/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:37] "[33mGET /new/.env.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:37] "[33mGET /new/.env.production HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:38] "[33mGET /new/.env.staging HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:38] "[33mGET /_phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:39] "[33mGET /_profiler/phpinfo HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:39] "[33mGET /_profiler/phpinfo/info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:40] "[33mGET /_profiler/phpinfo/phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:40] "[33mGET /wp-config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:40] "[33mGET /aws-secret.yaml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:41] "[33mGET /awstats/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:41] "[33mGET /conf/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:42] "[33mGET /cron/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:42] "[33mGET /www/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:42] "[33mGET /docker/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:43] "[33mGET /docker/app/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:43] "[33mGET /env.backup HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:44] "[33mGET /xampp/phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:44] "[33mGET /lara/info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:45] "[33mGET /lara/phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:45] "[33mGET /laravel/info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:25:46] "[33mGET /.vscode/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:43] "[33mGET /mail/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:43] "[33mGET /mailer/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:45] "[33mGET /nginx/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:46] "[33mGET /public/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:47] "[33mGET /site/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:48] "[33mGET /xampp/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:48] "[33mGET /main/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:48] "[33mGET /node_modules/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:48] "[33mGET /kyc/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:49] "[33mGET /admin/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:49] "[33mGET /prod/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:49] "[33mGET /.env.bak HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:49] "[33mGET /api/shared/config/config.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:50] "[33mGET /api/shared/config.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:50] "[33mGET /config.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:50] "[33mGET /website/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:51] "[33mGET /development/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:51] "[33mGET /backend/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:51] "[33mGET /api/shared/config/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:51] "[33mGET /api/shared/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:52] "[33mGET /api/config.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:52] "[33mGET /service/email_service.py HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:52] "[33mGET /node/.env_example HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:52] "[33mGET /.env.production.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:52] "[33mGET /.env.local HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:53] "[33mGET /.env.example HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:53] "[33mGET /.env.stage HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:53] "[33mGET /server/config/database.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:53] "[33mGET /.env.old HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:53] "[33mGET /.env_sample HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:54] "[33mGET /scripts/nodemailer.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:54] "[33mGET /.env.prod HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:54] "[33mGET /crm/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:54] "[33mGET /local/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:54] "[33mGET /core/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:55] "[33mGET /apps/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:55] "[33mGET /application/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:55] "[33mGET /web/.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:55] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:56] "[33mGET /wp-config.php.bak HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:56] "[33mGET /info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:56] "[33mGET /dashboard/phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:57] "[33mGET /static/js/main.141b0494.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:57] "[33mGET /static/js/2.ca066a4b.chunk.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:57] "[33mGET /static/js/main.e85f7a37.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:58] "[33mGET /admin/server_info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:58] "[33mGET /server_info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:58] "[33mGET /app_dev.php/_profiler/phpinfo HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:59] "[33mGET /test.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:59] "[33mGET /server-info HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:26:59] "[33mGET /server-info.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:27:00] "[33mGET /secured/phpinfo.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:27:00] "[33mGET /config.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:27:00] "[33mGET /server.js HTTP/1.1[0m" 404 -
+94.154.43.66 - - [14/Jul/2026 22:30:46] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 22:30:46] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 22:39:43] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 22:45:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:45:13] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:45:14] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:45:14] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:45:14] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:45:14] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:45:15] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:45:15] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:45:15] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:45:19] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 22:48:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:48:14] "[36mGET /chat.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:48:14] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:48:14] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:48:15] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Jul/2026 22:48:15] "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:48:15] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:48:15] "GET /api/vapid-public-key HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 22:48:24] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 337, in execute
+    write(b"")
+  File "/root/chatter_env/lib/python3.12/site-packages/werkzeug/serving.py", line 262, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [14/Jul/2026 22:59:53] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:03:27] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 23:14:29] "[33mGET /assets/js/message.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:29] "[33mGET /js/antibot-client.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /css/support_parent.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /js/lkk_ch.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /static/style/protect/index.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:30] "[33mGET /bot-connect.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:31] "[33mGET /assets/js/qr_modal.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:31] "[33mGET /js/twint_ch.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:31] "[33mGET /assets/js/auth.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:14:31] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 23:14:31] "[33mGET /static/style/sys_files/index.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:26:58] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:27:57] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Jul/2026 23:42:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2026 23:45:38] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+94.154.43.66 - - [14/Jul/2026 23:45:45] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+94.154.43.66 - - [14/Jul/2026 23:45:45] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+127.0.0.1 - - [14/Jul/2026 23:49:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jul/2026 00:01:32] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2026 00:10:54] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+46.151.178.13 - - [15/Jul/2026 00:18:43] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+46.151.178.13 - - [15/Jul/2026 00:18:43] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+205.210.31.200 - - [15/Jul/2026 00:25:36] code 400, message Bad request version ('À\x13À')
+205.210.31.200 - - [15/Jul/2026 00:25:36] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03(\x98D\x06lÔ÷\x0e¯>9Â]ò\x0dåÔ\x8fQ­]ó3Æó^\x18½« !î ã\x0f\x9b6â\x92·\x94cFMÑ\x06#\x8f»\x10I¬\x14ìÀ\x9b§Ûiú²?ZJ\x90\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+205.210.31.200 - - [15/Jul/2026 00:25:36] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03üGA\x032\x91Û\x15wø\x92ÊY\x81¥\x0eÞÞ·åf\x08\x1axÄ{û\x03Ot\x03/\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+205.210.31.200 - - [15/Jul/2026 00:25:36] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03üGA\x032\x91Û\x15wø\x92ÊY\x81¥\x0eÞÞ·åf\x08\x1axÄ{û\x03Ot\x03/\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [15/Jul/2026 00:30:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jul/2026 00:46:53] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2026 00:48:49] "[33mGET /wp-admin/install.php?step=1 HTTP/1.1[0m" 404 -
+91.196.152.210 - - [15/Jul/2026 00:53:50] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x00\x04\x00\x1b\x00\x00\x00M')
+91.196.152.210 - - [15/Jul/2026 00:53:50] "[31m[1mCNXN\x00\x00\x00\x01\x00\x00\x04\x00\x1b\x00\x00\x00M[0m" 400 -
+91.196.152.209 - - [15/Jul/2026 00:54:14] code 400, message Bad request version ('¢\x0f')
+91.196.152.209 - - [15/Jul/2026 00:54:14] "[31m[1m\x16\x03\x03\x02d\x01\x00\x02`\x03\x03 Ñ\x02O\x1c\x99hââë\x87â\x895c-\x1c¢\x0f\x1f[0m" 400 -
+91.196.152.177 - - [15/Jul/2026 00:54:18] "GET / HTTP/1.1" 200 -
+91.196.152.120 - - [15/Jul/2026 00:56:19] "[33mGET /static/chatter-icon-192.png HTTP/1.1[0m" 404 -
+91.231.89.240 - - [15/Jul/2026 00:56:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
