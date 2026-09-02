@@ -4,7 +4,7 @@ from flask_limiter.util import get_remote_address
 from gevent.threadpool import ThreadPoolExecutor
 
 socketio = SocketIO(
-    async_mode="threading",
+    async_mode="gevent",
     cors_allowed_origins=[
         "https://chatter-2.com",
         "https://chatter-2.duckdns.org",
