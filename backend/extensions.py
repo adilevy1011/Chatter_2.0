@@ -5,10 +5,11 @@ from gevent.threadpool import ThreadPoolExecutor
 
 socketio = SocketIO(
     async_mode="gevent",
+    logger=True,
+    engineio_logger=True,
     cors_allowed_origins=[
         "https://chatter-2.com",
-        "https://chatter-2.duckdns.org",
-        "http://147.182.235.138:5555",
+        "https://www.chatter-2.com"
     ],
 )
 
