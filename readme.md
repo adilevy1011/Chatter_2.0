@@ -29,14 +29,3 @@ The app is currently accessed at:
 **https://chatter-2.com**
 
 The app is intended to be used through the deployed domain, not through a local development URL.
-
-## Current Status
-
-Chatter 2.0 is actively being developed and improved.
-
-Recent areas of work have included:
-
-* Message display behavior
-* Typing indicators
-* Read/unread behavior
-* File and media message handling
