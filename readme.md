@@ -21,11 +21,3 @@ The exact structure may change over time, but the current project includes:
 * Messaging and contact logic
 * Notification logic
 * Runtime files created on the server
-
-## Production Domain
-
-The app is currently accessed at:
-
-**https://chatter-2.com**
-
-The app is intended to be used through the deployed domain, not through a local development URL.
